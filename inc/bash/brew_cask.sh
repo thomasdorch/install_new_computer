@@ -14,7 +14,7 @@ for i in \
   ghostty \
   klayout \
   zed \
-  zen \
+  zen
 do
   require_cask $i
 done
