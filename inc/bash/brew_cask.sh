@@ -8,29 +8,13 @@ source "$script_home/lib_sh/requirers.sh"
 echo "==> Installing desktop apps via Homebrew Cask..."
 
 for i in \
-  visual-studio-code \
-  cursor \
   caffeine \
-  obs \
   firefox \
-  flameshot \
   google-chrome \
   ghostty \
-  zed
-  # bitwarden \
-  # macvim \
-  # dupeguru \
-  # github \
-  # iterm2 \
-  # karabiner-elements \
-  # keepassx \
-  # kitty \
-  # klayout \
-  # nextcloud \
-  # osxfuse \
-  # oni \
-  # pdftotext \
-  # sublime-text \
+  klayout \
+  zed \
+  zen \
 do
   require_cask $i
 done

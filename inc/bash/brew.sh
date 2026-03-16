@@ -40,7 +40,6 @@ fi
 ################################
 
 for i in \
-  ag \
   atuin \
   autojump \
   automake \
@@ -48,29 +47,24 @@ for i in \
   bash \
   bat \
   bottom \
-  copilot-cli \
   dust \
-  eza \
+  ez \
   fastmod \
   fd \
-  fish \
   fzf \
-  gh \
-  gemini-cli \
   git-delta \
   git-lfs \
   go \
-  htop \
   hyperfine \
   lazygit \
   lf \
   lsd \
+  just \
   m-cli \
   mcfly \
   mpv \
   neovim \
   node \
-  ollama \
   postgres \
   ripgrep \
   s-search \
@@ -78,6 +72,7 @@ for i in \
   sd \
   shellcheck \
   skim \
+  starship \
   tmux \
   tokei \
   tree \
@@ -85,50 +80,10 @@ for i in \
   wget \
   yarn \
   zoxide \
+  font-liberation-nerd-font \
   ;
 do
   require_brew $i
 done
-
-# for i in \
-#   chatgpt \
-#   ghostty \
-#   flameshot \
-#   # granola \
-#   # google-drive \
-#   ;
-# do
-#   bin=$(which $i) 2>&1 > /dev/null
-#   if [[ $? != 0 ]]; then
-#     echo brew install $i
-#     brew install $i
-#   fi
-# done
-
-# for i in \
-#   autoenv \
-#   chafa \
-#   font-dejavusansmono-nerd-font \
-#   font-fantasque-sans-mono \
-#   font-fira-code \
-#   font-firacode-nerd-font \
-#   font-firacode-nerd-font-mono \
-#   font-iosevka \
-#   font-iosevka-nerd-font \
-#   font-sourcecodepro-nerd-font \
-#   geos \
-#   googler \
-#   howdoi \
-#   locate \
-#   mas \
-#   neomutt \
-#   ;
-# do
-#   bin=$(which $i) 2>&1 > /dev/null
-#   if [[ $? != 0 ]]; then
-#     echo brew install $i
-#     brew install $i
-#   fi
-# done
 
 echo "==> Done! Homebrew packages installed."
