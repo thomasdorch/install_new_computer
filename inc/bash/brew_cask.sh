@@ -19,4 +19,7 @@ do
   require_cask $i
 done
 
+# Add link to klayout binary to shell
+ln -s /Applications/KLayout/klayout.app/Contents/MacOS/klayout $HOME/.local/bin/klayout
+
 echo "==> Done! Desktop apps installed."
