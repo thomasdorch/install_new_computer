@@ -10,10 +10,10 @@ echo "==> Installing desktop apps via Homebrew Cask..."
 for i in \
   caffeine \
   firefox \
-  google-chrome \
   ghostty \
   klayout \
-  zed \
+  notion \
+  vscodium \
   zen
 do
   require_cask $i

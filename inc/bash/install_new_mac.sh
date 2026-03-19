@@ -41,13 +41,6 @@ defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false;ok
 running "Set key repeat rate to fastest"
 defaults write NSGlobalDomain KeyRepeat -int 1;ok
 
-running "Set initial key repeat delay to shortest"
-defaults write NSGlobalDomain InitialKeyRepeat -int 10;ok
-
-# running "Disable the crash reporter"
-# defaults write com.apple.CrashReporter DialogType -string "none";ok
-# running "Avoid creating .DS_Store files on network volumes"
-# defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true;ok
 
 ###############################################################################
 # "Dock & Dashboard"
@@ -93,4 +86,4 @@ bash $script_home/brew.sh
 bash $script_home/brew_cask.sh
 # bash $script_home/ssh_create_key.sh
 # bash $script_home/dotfiles.sh
-bash $script_home/vim.sh
+# bash $script_home/vim.sh
