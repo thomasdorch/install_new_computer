@@ -40,47 +40,21 @@ fi
 ################################
 
 for i in \
-  atuin \
-  autojump \
   automake \
-  awk \
   bash \
   bat \
   bottom \
-  dust \
-  ez \
-  fastmod \
   fd \
   fzf \
   git-delta \
   git-lfs \
   go \
-  hyperfine \
-  lazygit \
   lf \
-  lsd \
   just \
-  m-cli \
-  mcfly \
-  mpv \
   neovim \
-  node \
   postgres \
-  ripgrep \
-  s-search \
-  s3fs \
-  sd \
-  shellcheck \
-  skim \
-  starship \
-  tmux \
-  tokei \
-  tree \
   vim \
   wget \
-  yarn \
-  zoxide \
-  font-liberation-nerd-font \
   ;
 do
   require_brew $i
